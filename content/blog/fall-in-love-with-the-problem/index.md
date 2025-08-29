@@ -26,7 +26,7 @@ At the heart of my talk was this message: the better you understand the problem,
 
 I guided participants through interactive exercises:
 - **Dig Beneath the Surface**: Ask “why” five times to get to the root of the issue.
-- **Observe Real Behavior**: Real problems reveal themselves in how people behave, not just what they say.
+- **Observe Real Behaviour**: Real problems reveal themselves in how people behave, not just what they say.
 - **Iterate on the Question, Not the Answer**: It’s okay for the problem to evolve. In fact, that’s natural and encouraged.
 
 ---
