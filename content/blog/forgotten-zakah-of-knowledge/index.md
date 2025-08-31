@@ -32,7 +32,7 @@ One useful resource on this topic is IslamOnline’s article [*The Zakat of Life
 
 ## Forms of Zakah of Knowledge
 
-IslamOnline mentions several ways to give zakah of knowledge. Here are some highlights:
+IslamOnline mentions several ways to fulfil zakah of knowledge. Here are some highlights:
 
 ### 1. **Spreading Knowledge**
 
