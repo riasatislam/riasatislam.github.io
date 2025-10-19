@@ -4,7 +4,6 @@ date: 2025-10-19
 author: "Riasat Islam"
 description: "A true story of patience, faith, and perseverance — how Zaynab’s journey through hardship reminds us that with every difficulty comes ease."
 tags: [resilience, faith, islam, life-lessons, sabr, tawakkul]
-image: /images/resilience.jpg
 ---
 
 > “He is the One who created death and life to test you as to which of you is best in deed.”  
