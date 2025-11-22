@@ -230,6 +230,69 @@ A single meaningful project can often speak louder than grades or test scores.
 
 ---
 
+### ❓ Q: If I do my higher studies and then take a break from academia for one or two years, will it reduce my chances of becoming a faculty member later?
+
+Not necessarily. Many academics do a postdoctoral position after the PhD and then transition into faculty roles. A short gap is usually not a major issue as long as you can show:
+
+- continued interest in research  
+- some form of academic activity (projects, publications, teaching, etc.)  
+- clear motivation to return to academia  
+
+Universities mainly look at your long-term research capability, not whether you started your faculty role immediately after graduation.
+
+---
+
+### ❓ Q: How expensive is higher studies in Europe, both yearly and overall?
+
+Costs vary widely depending on the country, city and university.
+
+General guidelines:
+
+- **If you receive a scholarship**, tuition is covered and you receive a stipend for living expenses.  
+- **If you pay tuition**, the cost depends on location. For example:  
+  - Germany and Finland often have free tuition for Master's programmes.  
+  - Other countries vary significantly in tuition fees.  
+- **Living costs** depend on the city. Scandinavian countries tend to be more expensive while Eastern Europe tends to be more affordable.
+
+It is best to check specific university pages for accurate figures, since they are publicly available and regularly updated.
+
+---
+
+### ❓ Q: How difficult is it to get a fully funded scholarship in Europe?
+
+Funding options exist across multiple pathways:
+
+- **DAAD scholarships** in Germany  
+- University-specific scholarships in the Netherlands, Sweden and Denmark  
+- **Erasmus Mundus** (multi-country Master's programmes)  
+- **EIT Digital Master School** (Europe-wide tech-focused programmes)
+
+Funding is competitive but achievable. Strong academic grounding, a clear statement of purpose and relevant experience significantly increase your chances.
+
+---
+
+### ❓ Q: Is it financially challenging for a married couple to go abroad for studies at the same time? Are there ways to make it easier?
+
+Yes, it can be challenging, but not impossible. Realistic strategies include:
+
+- receiving scholarship funding  
+- part-time work (depending on visa rules)  
+- financial help from family  
+- living modestly, such as in shared housing  
+
+However, shared accommodation may not be suitable for everyone due to privacy, hijab or mahram considerations. Couples need to plan carefully and be mentally prepared for a simpler lifestyle.
+
+---
+
+### ❓ Q: What if one spouse finishes studies earlier and wants to move to another country (for example, the Gulf for academic work) while the other continues studying in Europe? Is that a problem?
+
+In most cases, it is manageable. People often finish their Master's, then pursue a PhD or postdoc, and later move to the Gulf for faculty positions. As long as visas and academic commitments align, shifting in phases is common and feasible.
+
+There is typically no long-term issue with one spouse completing studies while the other begins work elsewhere, as long as the transitions are planned.
+
+
+---
+
 ## 🌿 Final Thoughts
 These questions appear frequently from students across South Asia. Your CGPA, major, or university background does not define your future. A strong profile is built through consistent effort, clarity of intention, and sincere dedication. Work hard, apply widely, and place your trust in Allah. He opens doors in ways we cannot always predict.
 
