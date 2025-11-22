@@ -13,6 +13,15 @@ This page serves as a personal archive of those khutbahs — may they benefit an
 
 ---
 
+### 🟢 Between Halal and Haram — Lessons from the Early Muslims
+**Date:** 22 November 2025
+**Summary:**  
+A reflection on the famous hadith, *“The lawful is clear and the unlawful is clear…”* taught through simple narratives from the lives of the Sahaba. This khutbah invites us to step back from grey areas, safeguard our honour and faith, and purify the heart — the piece of flesh upon which our entire spiritual state depends.
+📄 **[Read the full khutbah →](https://docs.google.com/document/d/1JIXwIIdYGygDqaaTHI-TxI_oTB8dZj2MI7q8F1cbowQ/edit?usp=sharing)**
+
+
+---
+
 ### 🕋 Faith in Times of Fear  
 **Date:** 10 October 2025  
 **Summary:** A reminder on maintaining *īmān* (faith) during moments of fear, uncertainty, and trials — drawing on the Qur’anic stories of the Prophets and the importance of trusting Allah’s plan.  
