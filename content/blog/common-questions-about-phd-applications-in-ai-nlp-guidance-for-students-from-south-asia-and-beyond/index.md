@@ -251,3 +251,6 @@ This Q&A is intentionally broad and synthesised from recurring themes, not any s
 If you are a student from South Asia, or anywhere else, exploring a PhD in AI, know that uncertainty is normal. Nobody starts this journey with full clarity. What matters is intentional effort, curiosity, and sincerity.
 
 I will continue sharing general guidance whenever possible, insha’Allah, so more students can benefit.
+
+For Part 2 of this series, see:  
+[More Questions Students Ask About Higher Studies: Practical Guidance for South Asian Students](https://www.riasatislam.com/blog/more-questions-students-ask-about-higher-studies-practical-guidance-for-south-asian-students/)
