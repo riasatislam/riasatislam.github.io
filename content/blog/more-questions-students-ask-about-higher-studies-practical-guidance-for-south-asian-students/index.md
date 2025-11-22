@@ -158,7 +158,80 @@ A PhD opens many opportunities. What matters most is how you align your skills w
 
 ---
 
+### ❓ Q: I am an undergraduate student from an engineering background (for example EEE), but my main interest is in AI and computer vision. My CGPA is average, but I have some publications. What type of universities should I consider for higher studies?
+
+It is common for students to underestimate themselves because of CGPA, but overestimate the importance of university rankings. The general rule is:
+
+**Do not eliminate a university yourself. Check their minimum criteria and apply. Let the admissions committee decide.**
+
+Admissions are unpredictable. Sometimes a top-ranked university admits you while a lower-ranked one rejects you. Apply broadly across a mix of ambitious, mid-level, and safe options.
+
+Your publications will significantly strengthen your profile. Research output at the undergraduate level is always impressive, regardless of major.
+
+---
+
+### ❓ Q: What are the chances of getting a fully funded Master's at strong research universities in places like the Gulf or other competitive regions?
+
+It is impossible for anyone to predict exact chances. Funding decisions depend on many factors, including the overall pool of applicants, departmental priorities, supervisor availability, and timing.
+
+What you *can* control is:
+
+- preparing a strong application  
+- applying before deadlines  
+- writing a clear and sincere statement of purpose  
+- gathering strong recommendation letters  
+- organising your publications and projects  
+
+Then make du’a, put your trust in Allah, and submit your applications. Many times, opportunities come from unexpected places. Applicants with average CGPAs have entered very competitive programmes simply because the rest of their profile demonstrated excellence and potential.
+
+---
+
+### ❓ Q: Is moving from an EEE background to AI or computer science considered a risky switch?
+
+Not really. Many institutions treat engineering, computer science, and related fields as overlapping disciplines. Moving from EEE to AI is very common for students in South Asia and around the world.
+
+You can strengthen your transition by:
+
+- revising data structures and algorithms  
+- taking a few core CS courses on your own (operating systems, algorithms, or ML basics)  
+- demonstrating completed projects in AI or computer vision  
+- linking your engineering background to computing (for example, embedded systems, edge devices, optimisation, microcontrollers)
+
+Your EEE foundation can become an advantage, especially for areas like hardware optimisation, IoT, robotics, or efficient model deployment.
+
+---
+
+### ❓ Q: My CGPA is not as high as many other applicants. Can a good GRE score compensate for that?
+
+First check if the universities you are applying to even require GRE. Many do not.
+
+- In Europe, GRE is rarely required except for a few institutions.  
+- In the United States, many universities have removed the GRE requirement or made it optional.  
+- Some places will consider GRE if submitted, but do not treat it as a decisive factor.
+
+A strong GRE score can help if a university explicitly values it, but it cannot replace a full academic profile. Admissions are holistic. A balanced application can still succeed even if your CGPA is not the highest.
+
+---
+
+### ❓ Q: Is there anything else I can do to stand out as an applicant?
+
+Yes. One of the best ways is to build something real.
+
+Pick a problem in your country or community that needs an AI-based solution. Develop a prototype, model, or small product that genuinely solves the problem.
+
+Universities value applicants who demonstrate:
+
+- initiative  
+- real-world application  
+- creativity  
+- independence in research and development  
+
+A single meaningful project can often speak louder than grades or test scores.
+
+---
+
 ## 🌿 Final Thoughts
+These questions appear frequently from students across South Asia. Your CGPA, major, or university background does not define your future. A strong profile is built through consistent effort, clarity of intention, and sincere dedication. Work hard, apply widely, and place your trust in Allah. He opens doors in ways we cannot always predict.
 
 Whether you are in your final undergraduate year or already working full time, your questions are valid. Studying abroad is not only an academic goal but a personal and emotional journey. Marriage, finances, faith, adaptability and motivation all play a role.
 
