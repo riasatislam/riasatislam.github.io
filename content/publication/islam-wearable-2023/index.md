@@ -1,10 +1,14 @@
 ---
 title: 'Wearable Technologies to Support Lower Limb Rehabilitation and Clinical Practice:
-  User Requirements, Design, and Evaluation - ProQuest'
-date: '2023-01-01'
+  User Requirements, Design, and Evaluation'
+authors:
+- Riasat Islam
+date: '2023-10-16'
 publishDate: '2024-09-23T17:11:47.403622Z'
 publication_types:
-- manuscript
+- thesis
+publication: '*PhD thesis, The Open University*'
+doi: 10.21954/ou.ro.00016d31
 abstract: 'The widespread adoption of wearable technologies in healthcare has the
   potential to bring about significant improvements. However, these technologies face
   design challenges when applied in real world settings and must be tailored to specific
@@ -33,7 +37,8 @@ abstract: 'The widespread adoption of wearable technologies in healthcare has th
   diverse users and the specific conditions and contexts in which wearable technologies
   will be used to effectively design and implement these technologies in healthcare.'
 links:
-- name: URL
-  url: 
-    https://www.proquest.com/openview/509c3c3dc2f12f6349e1107000aee17a/1?pq-origsite=gscholar&cbl=2026366&diss=y
+- name: DOI
+  url: https://doi.org/10.21954/ou.ro.00016d31
+- name: Repository
+  url: https://oro.open.ac.uk/93489/
 ---

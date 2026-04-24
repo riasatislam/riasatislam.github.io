@@ -3,13 +3,13 @@ title: 'Islamic Lifestyle Applications: Meeting the Spiritual Needs of Modern Mu
 authors:
 - Mohsinul Kabir
 - Mohammad Ridwan Kabir
-- Riasat Siam Islam
-date: '2024-02-01'
-publishDate: '2024-09-23T17:11:47.440683Z'
+- Riasat Islam
+date: '2025-12-17'
+publishDate: '2024-06-08T08:19:23.948844Z'
 publication_types:
-- manuscript
-publication: '*arXiv*'
-doi: 10.48550/arXiv.2402.02061
+- article-journal
+publication: '*International Journal of Human-Computer Interaction*'
+doi: 10.1080/10447318.2025.2595545
 abstract: We evaluated contemporary Islamic lifestyle applications supporting religious
   practices and motivation among Muslims. We reviewed 11 popular applications using
   self-determination theory and the technology-as-experience framework to assess their
@@ -27,6 +27,8 @@ abstract: We evaluated contemporary Islamic lifestyle applications supporting re
 tags:
 - Computer Science - Human-Computer Interaction
 links:
-- name: URL
+- name: DOI
+  url: https://doi.org/10.1080/10447318.2025.2595545
+- name: arXiv
   url: http://arxiv.org/abs/2402.02061
 ---

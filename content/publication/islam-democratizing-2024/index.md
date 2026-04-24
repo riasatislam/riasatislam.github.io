@@ -4,14 +4,16 @@ title: 'Democratizing Clinical Movement Analysis: Assessing the Versatility of M
 authors:
 - Riasat Islam
 - Mohamed Bennasar
+- Mohammad Al-Amri
 - Simon Holland
 - Paul Mulholland
 - Blaine Price
-date: '2024-01-01'
-publishDate: '2024-09-23T17:11:47.456059Z'
+date: '2024-09-01'
+publishDate: '2024-06-08T08:19:23.964672Z'
 publication_types:
-- article-journal
+- paper-conference
 publication: '*Procedia Computer Science*'
+doi: 10.1016/j.procs.2024.09.536
 abstract: This study evaluated the versatility of the MoJoXlab in conducting clinical
   movement analysis using inertial sensors from various manufacturers, including low-cost,
   non-proprietary, and open-protocol wearable options. Data were collected from 15
@@ -30,6 +32,8 @@ abstract: This study evaluated the versatility of the MoJoXlab in conducting cli
   for multiple sensor manufacturers and improve the accuracy of joint angle calculations
   for clinical applications.
 links:
-- name: URL
+- name: DOI
+  url: https://doi.org/10.1016/j.procs.2024.09.536
+- name: Repository
   url: https://oro.open.ac.uk/97622/
 ---
