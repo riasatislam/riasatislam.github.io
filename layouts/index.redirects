@@ -1,0 +1,8 @@
+# Netlify redirects
+# Automatically generated
+# Documentation: https://docs.netlify.com/routing/redirects/
+{{- range $page := where site.Pages ".Aliases" "!=" nil -}}
+{{- range $page.Aliases }}
+{{ .|relLangURL }} {{ $page.RelPermalink -}}
+{{- end }}
+{{- end -}}

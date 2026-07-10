@@ -32,5 +32,7 @@ abstract: This research explores the development and evaluation of wearable hapt
   use of technology from the perspective of multiple stakeholders, including clinicians,
   carers and patients. This work has the potential to impact clinical practice nationwide
   and worldwide in neuro-physiotherapy.
-url_pdf: http://hci2018.bcs.org/wp-content/uploads/2017/09/BHCI-2018_paper_250.pdf
+links:
+- type: pdf
+  url: http://hci2018.bcs.org/wp-content/uploads/2017/09/BHCI-2018_paper_250.pdf
 ---

@@ -26,7 +26,9 @@ publishDate: '2024-09-23T17:11:47.301359Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Obesity*'
-doi: 10.1038/ijo.2017.43
+hugoblox:
+  ids:
+    doi: 10.1038/ijo.2017.43
 abstract: We investigated five methylation markers recently linked to body mass index,
   for their role in the neuropathology of obesity. In neuroimaging experiments, our
   analysis involving 23 participants showed that methylation levels for the cg07814318

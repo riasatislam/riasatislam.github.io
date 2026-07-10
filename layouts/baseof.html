@@ -1,0 +1,35 @@
+<!doctype html>
+{{ "<!-- This site was created with Hugo Blox. https://hugoblox.com -->" | safeHTML }}
+{{ printf "<!-- Last Published: %s -->" (now | time.Format ":date_long") | safeHTML }}
+{{- $language_code := site.Language.Locale | default "en-us" -}}
+<html lang="{{$language_code}}" {{ if in hugo.Data.i18n.rtl.rtl $language_code }}dir="rtl"{{else}}dir="ltr"{{end}}
+      data-wc-theme-default="{{ (lower site.Params.appearance.mode) | default "system" }}">
+  {{ partial "site_head" . }}
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header {{ if site.Params.header.navbar.fixed_to_top }}sticky top-0 z-30{{ end }}">
+      {{ $show_navbar := ((site.Params.header.navbar.enable | default true) | and (ne .Params.header.navbar.enable false)) | or .Params.header.navbar.enable }}
+      {{ if $show_navbar }}
+        {{- $header_config := .Params.header.navbar | default site.Params.header.navbar | default dict -}}
+        {{- $block_name := partial "hbx/resolve-block-param" (dict "config" $header_config "context" "header") | default "navbar" -}}
+        {{ $block_path := printf "components/headers/%s.html" $block_name }}
+        {{ if not (templates.Exists (printf "_partials/%s" $block_path)) }}
+          {{ errorf "Check your `header` config in `params.yaml` and/or front matter. Cannot find header block at `layouts/_partials/%s`" $block_path }}
+        {{ else }}
+          {{ partial $block_path . }}
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="page-body {{if ne .Type "landing"}} my-10{{end}}">
+      {{ block "main" . }}{{ end }}
+    </div>
+    <div class="page-footer">
+      {{ partial "site_footer" . }}
+    </div>
+
+    {{ partial "notification-container" . }}
+    {{ partial "functions/get_hook" (dict "hook" "body-end" "context" .) }}
+    {{ partial "hooks/body-end/hbx-debug-export.html" . }}
+    {{ partial "hooks/body-end/hbx-debug-hud.html" . }}
+  </body>
+</html>

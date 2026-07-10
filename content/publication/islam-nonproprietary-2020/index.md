@@ -16,7 +16,9 @@ publishDate: '2024-09-23T17:11:47.377539Z'
 publication_types:
 - article-journal
 publication: '*JMIR mHealth and uHealth*'
-doi: 10.2196/17872
+hugoblox:
+  ids:
+    doi: 10.2196/17872
 abstract: 'Background: Movement analysis in a clinical setting is frequently restricted
   to observational methods to inform clinical decision making, which has limited accuracy.
   Fixed-site, optical, expensive movement analysis laboratories provide gold standard

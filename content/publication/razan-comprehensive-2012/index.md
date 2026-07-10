@@ -11,7 +11,9 @@ publishDate: '2024-09-23T17:11:47.294051Z'
 publication_types:
 - article-journal
 publication: '*International Scholarly Research Notices*'
-doi: 10.5402/2012/635396
+hugoblox:
+  ids:
+    doi: 10.5402/2012/635396
 abstract: Depletion of fossil fuel and the inability to meet the rising demand of
   electricity are some drawbacks for the economic development of Bangladesh. Carbon
   emission done by developed world is also troubling the country. This paper focuses

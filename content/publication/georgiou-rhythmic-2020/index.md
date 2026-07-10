@@ -14,7 +14,9 @@ publishDate: '2024-09-23T17:11:47.386174Z'
 publication_types:
 - article-journal
 publication: '*JMIR Rehabilitation and Assistive Technologies*'
-doi: 10.2196/18589
+hugoblox:
+  ids:
+    doi: 10.2196/18589
 abstract: 'Background: Huntington disease (HD) is an inherited genetic disorder that
   results in the death of brain cells. HD symptoms generally start with subtle changes
   in mood and mental abilities; they then degenerate progressively, ensuing a general

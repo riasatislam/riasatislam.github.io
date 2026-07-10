@@ -9,7 +9,9 @@ publishDate: '2024-06-08T08:19:23.948844Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Human-Computer Interaction*'
-doi: 10.1080/10447318.2025.2595545
+hugoblox:
+  ids:
+    doi: 10.1080/10447318.2025.2595545
 abstract: We evaluated contemporary Islamic lifestyle applications supporting religious
   practices and motivation among Muslims. We reviewed 11 popular applications using
   self-determination theory and the technology-as-experience framework to assess their

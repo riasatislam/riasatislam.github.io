@@ -13,7 +13,9 @@ publishDate: '2024-06-08T08:19:23.964672Z'
 publication_types:
 - paper-conference
 publication: '*Procedia Computer Science*'
-doi: 10.1016/j.procs.2024.09.536
+hugoblox:
+  ids:
+    doi: 10.1016/j.procs.2024.09.536
 abstract: This study evaluated the versatility of the MoJoXlab in conducting clinical
   movement analysis using inertial sensors from various manufacturers, including low-cost,
   non-proprietary, and open-protocol wearable options. Data were collected from 15

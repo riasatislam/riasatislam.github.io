@@ -19,7 +19,9 @@ publishDate: '2026-04-24T00:00:00Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Science Education, Part B*'
-doi: 10.1080/21548455.2025.2496428
+hugoblox:
+  ids:
+    doi: 10.1080/21548455.2025.2496428
 abstract: This article examines haptic inquiry in primary school citizen science,
   exploring how natural and digital touch experiences can support children's attention,
   communication, and learning about the natural world.

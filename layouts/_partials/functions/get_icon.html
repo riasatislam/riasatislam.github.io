@@ -1,0 +1,83 @@
+{{/* Return the requested SVG icon */}}
+{{/* Search for the icon in the Hugo Blox Builder icon library, falling back to user's icon library */}}
+
+{{ $dirFile := path.Split .name }}
+{{ $pack := .pack | default (strings.Replace $dirFile.Dir "/" "") | default "hero" }}
+{{ $name := $dirFile.File }}
+
+{{ $icon := "" }}
+{{ $hbData := hugo.Data }}
+
+{{- if eq $pack "emoji" -}}
+  {{ $wrapped := cond (hasPrefix $name ":") $name (printf ":%s:" $name) }}
+  {{ $emoji := $wrapped | emojify }}
+  {{ $attrs := .attributes | default "" }}
+  {{ if in $attrs "w-24" }}{{ $attrs = replaceRE "w-24 h-24" "" $attrs }}{{ $attrs = printf "%s text-8xl leading-none" $attrs }}{{ end }}
+  {{ if in $attrs "w-12" }}{{ $attrs = replaceRE "w-12 h-12" "" $attrs }}{{ $attrs = printf "%s text-5xl leading-none" $attrs }}{{ end }}
+  {{ if in $attrs "w-8" }}{{ $attrs = replaceRE "w-8 h-8" "" $attrs }}{{ $attrs = printf "%s text-4xl leading-none" $attrs }}{{ end }}
+  {{ if in $attrs "w-6" }}{{ $attrs = replaceRE "w-6 h-6" "" $attrs }}{{ $attrs = printf "%s text-2xl leading-none" $attrs }}{{ end }}
+  {{ if in $attrs "w-5" }}{{ $attrs = replaceRE "w-5 h-5" "" $attrs }}{{ $attrs = printf "%s text-xl leading-none" $attrs }}{{ end }}
+  {{ if in $attrs "w-4" }}{{ $attrs = replaceRE "w-4 h-4" "" $attrs }}{{ $attrs = printf "%s text-lg leading-none" $attrs }}{{ end }}
+  {{ $style_attr := "" }}
+  {{ if in $attrs "text-8xl" }}{{ $style_attr = "style=\"font-size: 6rem !important; line-height: 1 !important;\"" }}{{ end }}
+  {{ if in $attrs "text-5xl" }}{{ $style_attr = "style=\"font-size: 3rem !important; line-height: 1 !important;\"" }}{{ end }}
+  {{ if in $attrs "text-4xl" }}{{ $style_attr = "style=\"font-size: 2.25rem !important; line-height: 1 !important;\"" }}{{ end }}
+  {{ if in $attrs "text-2xl" }}{{ $style_attr = "style=\"font-size: 1.5rem !important; line-height: 1 !important;\"" }}{{ end }}
+  {{ if in $attrs "text-xl" }}{{ $style_attr = "style=\"font-size: 1.25rem !important; line-height: 1 !important;\"" }}{{ end }}
+  {{ if in $attrs "text-lg" }}{{ $style_attr = "style=\"font-size: 1.125rem !important; line-height: 1 !important;\"" }}{{ end }}
+  {{ $attrs = printf "%s %s" $attrs $style_attr }}
+  {{ $icon = printf "<span %s>%s</span>" $attrs $emoji }}
+{{- else -}}
+  {{- $icon_pack := index $hbData.icons $pack -}}
+  {{- $pack_icon := index (index $icon_pack "icons") $name -}}
+
+{{ if $pack_icon }}
+  {{ if in (slice "hb" "brands") $pack }}
+    {{ $icon = $pack_icon }}
+  {{ else }}
+    {{ $icon_body := index $pack_icon "body" }}
+    {{ $icon_size := index $icon_pack "height" }}
+    {{ $icon = printf `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %s %s">%s</svg>` (cast.ToString $icon_size) (cast.ToString $icon_size) $icon_body }}
+  {{ end }}
+{{ else }}
+  {{ with index (index $hbData.icons.hb "icons") $name -}}
+    {{ $icon = . }}
+  {{ else }}
+    {{- $prefix := printf "media/icons/%s/" $pack -}}
+    {{- $icon_path := printf "%s%s.svg" $prefix $name -}}
+    {{- if not (fileExists (printf "assets/%s" $icon_path)) -}}
+      {{ $pageRef := "unknown location" }}
+      {{ if .Page }}
+        {{ if .Page.File }}
+          {{ if .Page.File.Path }}
+            {{ $pageRef = .Page.File.Path }}
+          {{ else if .Page.RelPermalink }}
+            {{ $pageRef = .Page.RelPermalink }}
+          {{ end }}
+        {{ else if .Page.RelPermalink }}
+          {{ $pageRef = .Page.RelPermalink }}
+        {{ end }}
+      {{ end }}
+      {{ partial "functions/logger" (dict
+            "page" .Page
+            "level" "warn"
+            "id" (printf "missing-icon-%s-%s" $pack $name)
+            "message" (printf "The icon `%s` was not found in `assets/media/icons/%s/`. Referenced in: %s" $name $pack $pageRef)
+          )
+      }}
+    {{- end -}}
+    {{- $icon_resource := resources.Get $icon_path -}}
+    {{ if $icon_resource }}
+      {{ $icon = $icon_resource.Content }}
+    {{ else }}
+      {{ $icon = index (index $hbData.icons.brands "icons") "hugo" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{- end -}}
+
+{{ if .attributes }}
+  {{ $icon = replaceRE "<svg" (printf "<svg %s" .attributes) $icon }}
+{{ end }}
+
+{{- return ($icon | safeHTML) -}}

@@ -11,7 +11,9 @@ publishDate: '2024-09-23T17:11:47.433016Z'
 publication_types:
 - article-journal
 publication: '*JMIR Formative Research*'
-doi: 10.2196/48055
+hugoblox:
+  ids:
+    doi: 10.2196/48055
 abstract: 'Background: Rehabilitation, or “prehabilitation,” is essential in preparing
   for and recovering from knee replacement surgery. The recent demand for these services
   has surpassed available resources, a situation further strained by the COVID-19

@@ -8,7 +8,9 @@ publishDate: '2026-04-24T00:00:00Z'
 publication_types:
 - manuscript
 publication: '*ResearchGate preprint*'
-doi: 10.13140/RG.2.2.20442.25287
+hugoblox:
+  ids:
+    doi: 10.13140/RG.2.2.20442.25287
 abstract: This preprint describes GTAF's AI stack and how a small engineering team
   supports Islamic technology products used by more than 13 million Muslims worldwide.
 links:

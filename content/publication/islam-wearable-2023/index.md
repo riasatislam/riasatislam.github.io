@@ -8,7 +8,9 @@ publishDate: '2024-09-23T17:11:47.403622Z'
 publication_types:
 - thesis
 publication: '*PhD thesis, The Open University*'
-doi: 10.21954/ou.ro.00016d31
+hugoblox:
+  ids:
+    doi: 10.21954/ou.ro.00016d31
 abstract: 'The widespread adoption of wearable technologies in healthcare has the
   potential to bring about significant improvements. However, these technologies face
   design challenges when applied in real world settings and must be tailored to specific

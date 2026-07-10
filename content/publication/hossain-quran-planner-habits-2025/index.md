@@ -8,7 +8,9 @@ publishDate: '2026-04-24T00:00:00Z'
 publication_types:
 - manuscript
 publication: '*Greentech Apps Foundation research report*'
-doi: 10.13140/RG.2.2.17311.27040
+hugoblox:
+  ids:
+    doi: 10.13140/RG.2.2.17311.27040
 abstract: This research report analyzes Quran Planner usage patterns from the Al Quran
   Tafsir & By Word app to understand user habits and engagement.
 links:

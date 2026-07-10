@@ -13,7 +13,9 @@ publishDate: '2024-09-23T17:11:47.309234Z'
 publication_types:
 - article-journal
 publication: '*Cancer Research*'
-doi: 10.1158/1538-7445.AM2017-4813
+hugoblox:
+  ids:
+    doi: 10.1158/1538-7445.AM2017-4813
 abstract: 'In a multi-disciplinary project, patient derived glioblastoma stem-cell
   cultures (GSCs) have been established and characterized extensively with the goal
   of applying computational efforts to integrate results from high-throughput screens

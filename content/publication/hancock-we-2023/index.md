@@ -41,6 +41,7 @@ abstract: Aims This paper draws on emergent findings of a UKRI-funded project (S
   further attention to the significance of digital and natural touch as modes of learning
   in sustainability education, the (school) environment is offered as a ‘place’ for
   all children both to learn and belong.
-url_pdf: 
-  https://opinvisindi.is/bitstream/handle/20.500.11815/4688/SERA-Conference-booklet-2023.pdf
+links:
+- type: pdf
+  url: https://opinvisindi.is/bitstream/handle/20.500.11815/4688/SERA-Conference-booklet-2023.pdf
 ---

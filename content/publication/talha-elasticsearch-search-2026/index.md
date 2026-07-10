@@ -8,7 +8,9 @@ publishDate: '2026-04-24T00:00:00Z'
 publication_types:
 - manuscript
 publication: '*ResearchGate preprint*'
-doi: 10.13140/RG.2.2.40058.90400
+hugoblox:
+  ids:
+    doi: 10.13140/RG.2.2.40058.90400
 abstract: This preprint reports experimentation and implementation work using
   Elasticsearch for search functionality.
 links:

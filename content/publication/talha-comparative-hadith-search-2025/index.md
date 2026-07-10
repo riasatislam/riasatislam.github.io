@@ -9,7 +9,9 @@ publishDate: '2026-04-24T00:00:00Z'
 publication_types:
 - manuscript
 publication: '*ResearchGate preprint*'
-doi: 10.13140/RG.2.2.26323.28965
+hugoblox:
+  ids:
+    doi: 10.13140/RG.2.2.26323.28965
 abstract: This preprint compares Hadith search engines using a results-based
   performance analysis of retrieval behavior and search quality.
 links:

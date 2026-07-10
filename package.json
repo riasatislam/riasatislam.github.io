@@ -1,0 +1,15 @@
+{
+  "name": "riasatislam-com",
+  "private": true,
+  "scripts": {
+    "build:site": "hugo --gc --minify",
+    "build:netlify": "hugo --gc --minify -b \"$URL\" && npx pagefind --site public",
+    "build:preview": "hugo --gc --minify --buildFuture -b \"$DEPLOY_PRIME_URL\" && npx pagefind --site public",
+    "build:branch": "hugo --gc --minify -b \"$DEPLOY_PRIME_URL\" && npx pagefind --site public"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^4.1.11"
+  }
+}

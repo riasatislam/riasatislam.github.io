@@ -13,7 +13,9 @@ publishDate: '2026-04-24T00:00:00Z'
 publication_types:
 - paper-conference
 publication: '*2025 IEEE Global Engineering Education Conference (EDUCON)*'
-doi: 10.1109/EDUCON62633.2025.11016483
+hugoblox:
+  ids:
+    doi: 10.1109/EDUCON62633.2025.11016483
 abstract: This four-year study examines the use of self-revision quizzes to enhance
   reflective learning in transnational education, reporting evidence from an engineering
   education context.

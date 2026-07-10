@@ -7,7 +7,9 @@ date: '2020-05-01'
 publishDate: '2024-09-23T17:11:47.368539Z'
 publication_types:
 - article-journal
-doi: 10.21954/ou.rd.c.4815567
+hugoblox:
+  ids:
+    doi: 10.21954/ou.rd.c.4815567
 abstract: 'MoJoXlab is a MATLAB based custom motion capture analysis software toolkit
   whose aim is to produce freely available motion capture analysis software to be
   used by anyone interested in generating lower limb joint kinematics waveforms using
